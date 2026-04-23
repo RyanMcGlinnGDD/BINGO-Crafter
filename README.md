@@ -8,7 +8,7 @@ A tool for designing custom goal-oriented bingo boards for content creators and 
 
 ### Card management
 - **Create** bingo cards with a name, grid size, and cell content
-- **Edit** any saved card — changes are reflected live in the preview
+- **Edit** any saved card - changes are reflected live in the preview
 - **Duplicate** a card to use it as a starting point for a new one
 - **Delete** cards with a confirmation prompt
 
