@@ -1,6 +1,6 @@
 # Bingo Crafter
 
-A tool for designing custom goal-oriented bingo boards for content creators and beyond. Create, customise, and export bingo cards with configurable grid sizes, colours, and cell content. Everything is saved locally in your browser — no account or server required.
+A tool for designing custom goal-oriented bingo boards for content creators and beyond. Create, customise, and export bingo cards with configurable grid sizes, colours, and cell content. Everything is saved locally in your browser with no account or server required.
 
 ---
 
@@ -14,8 +14,8 @@ A tool for designing custom goal-oriented bingo boards for content creators and 
 
 ### Grid configuration
 - **Grid sizes** from 2×2 to 7×7
-- **Free space** — optional centre cell with a configurable label (defaults to `FREE`)
-- **Custom free space label** — set any text for the free space cell
+- **Free space** - optional center cell with a configurable label (defaults to `FREE`)
+- **Custom free space label** - set any text for the free space cell
 
 ### Cell content
 - Enter one item per line in the text editor; the grid updates instantly
@@ -24,9 +24,9 @@ A tool for designing custom goal-oriented bingo boards for content creators and 
 - The free space stays fixed in its position during rearrangement
 
 ### Colour customisation
-- **Text & Lines** — controls cell text, the card title, and grid lines
-- **Free Space** — background colour of the free space cell
-- **Background** — background colour of regular cells
+- **Text & Lines** - controls cell text, the card title, and grid lines
+- **Free Space** - background colour of the free space cell
+- **Background** - background colour of regular cells
 - **Reset Colors** restores all three to the defaults
 - **Sync Free Space Color** copies the Text & Lines colour to the Free Space colour
 
@@ -43,7 +43,7 @@ A tool for designing custom goal-oriented bingo boards for content creators and 
 1. Click **+ New Card** on the home screen
 2. Enter a card name and choose a grid size
 3. Optionally enable a free space and customise its label
-4. Type cell content in the text editor — one entry per line
+4. Type cell content in the text editor - one entry per line
 5. Drag cells in the preview to arrange them, or click **Randomize**
 6. Adjust colours if desired
 7. Click **Save Card**
@@ -93,8 +93,8 @@ npm run build
 
 ### Tech stack
 - [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/) — build tool
-- [Mantine](https://mantine.dev/) — UI components
-- [TanStack Router](https://tanstack.com/router) — client-side routing
-- [dnd-kit](https://dndkit.com/) — drag and drop
-- [Vitest](https://vitest.dev/) + [Testing Library](https://testing-library.com/) — unit tests
+- [Vite](https://vitejs.dev/) - build tool
+- [Mantine](https://mantine.dev/) - UI components
+- [TanStack Router](https://tanstack.com/router) - client-side routing
+- [dnd-kit](https://dndkit.com/) - drag and drop
+- [Vitest](https://vitest.dev/) + [Testing Library](https://testing-library.com/) - unit tests
