@@ -1,6 +1,6 @@
 # Bingo Crafter
 
-A tool for designing custom goal-oriented bingo boards for content creators and beyond. Create, customise, and export bingo cards with configurable grid sizes, colours, and cell content. Everything is saved locally in your browser with no account or server required.
+A tool for designing custom goal-oriented bingo boards for content creators and beyond. Create, customize, and export bingo cards with configurable grid sizes, colours, and cell content. Everything is saved locally in your browser with no account or server required.
 
 ---
 
