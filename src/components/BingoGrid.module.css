@@ -1,0 +1,45 @@
+.cell {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid var(--bingo-primary, var(--mantine-color-default-border));
+  border-radius: var(--mantine-radius-sm);
+  background: var(--bingo-background, var(--mantine-color-default));
+  color: var(--bingo-primary, inherit);
+  overflow: hidden;
+  min-width: 0;
+}
+
+.sortableCell {
+  cursor: grab;
+  transition: box-shadow 80ms ease;
+}
+
+/* Table-style variant — used in read-only contexts (modal, thumbnail).
+   The grid wrapper supplies a 2px-gapped background that acts as grid lines;
+   individual cells shed their own borders and radii. */
+.tableCell {
+  border: none;
+  border-radius: 0;
+}
+
+.sortableCell:hover {
+  box-shadow: var(--mantine-shadow-xs);
+  border-color: var(--mantine-color-violet-4);
+}
+
+.sortableCell:active {
+  cursor: grabbing;
+}
+
+.freeCell {
+  background: var(--bingo-freespace, var(--mantine-color-violet-6));
+  border-color: var(--bingo-freespace, var(--mantine-color-violet-6));
+  color: #ffffff;
+}
+
+.empty {
+  opacity: 0.25;
+}

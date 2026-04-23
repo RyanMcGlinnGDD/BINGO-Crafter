@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: var(--mantine-radius-md);
+  border: 1px solid var(--mantine-color-default-border);
+  background: var(--mantine-color-default);
+  transition: box-shadow 120ms ease, border-color 120ms ease, transform 120ms ease;
+  width: 220px;
+}
+
+.wrapper:hover {
+  box-shadow: var(--mantine-shadow-md);
+  border-color: var(--mantine-color-violet-4);
+  transform: translateY(-2px);
+}
+
+.wrapper:active {
+  transform: translateY(0);
+  box-shadow: var(--mantine-shadow-xs);
+}
+
+.grid {
+  width: 196px; /* 220 - 2*12 padding */
+  pointer-events: none;
+}
